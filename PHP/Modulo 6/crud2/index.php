@@ -35,8 +35,8 @@ $stmt = $pdo->query("SELECT * FROM vagas");
         <td><?php echo $row['descricao']?></td>
         <td align="center"><?php echo $row['ativo']?></td>
         <td align="center">
-            <a href="editar.php?"><img src="https://img.icons8.com/metro/18/000000/edit.png"/></a>
-            <a href="excluir.php?"><img src="https://img.icons8.com/fluent-systems-regular/18/000000/trash.png"/></a>
+            <a href="editar.php?id=<?php echo $row['id']?>"><img src="https://img.icons8.com/metro/18/000000/edit.png"/></a>
+            <a href="excluir.php?id=<?php echo $row['id']?>"><img src="https://img.icons8.com/fluent-systems-regular/18/000000/trash.png"/></a>
 
         </td>
     </tr>

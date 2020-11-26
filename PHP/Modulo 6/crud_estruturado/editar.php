@@ -4,7 +4,7 @@ require_once 'config.php';
 
 $info = [];
 $id = filter_input(INPUT_GET, 'id');
-$ativo = $conexao->query("SELECT ativo FROM vagas");
+// $ativo = $conexao->query("SELECT ativo FROM vagas");
 
 if($id){
     $sqlSelect = $conexao->prepare("SELECT * FROM vagas WHERE id = :id");
