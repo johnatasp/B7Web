@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/19668650/100299352-3bbdbe00-2f72-11eb-9ab9-303244778b8f.png)
+
 # Formação PHP - B7Web
 
 > Projetos realizados durante formação da plataforma B7Web.
